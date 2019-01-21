@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+	
+    <link rel="icon"  href="./img/favicon.ico"/>
+    <title>Konexion</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Feuille css de bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!--script nécessaire pour bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    
+</head>
+
+<body>
+    <nav  class="bg-info navbar navbar-expand-lg fixed-top">
+        <h2 class="navbar-brand"><a href="#header">Knoexio</a></h2>
+        <div class=" collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li><a href="#students" class="nav-link
+">Etudiants</a></li>
+            <li><a href="#volunteer" class="nav-link
+">Bénévoles</a></li>
+            <li><a href="#gallery" class="nav-link
+">Les EPN</a></li>
+            <li><a href="#team" class="nav-link
+">L'équipe</a></li>
+        </ul>
+    </div>
+    <!-- <div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Se Conecter</button>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">Se conecter</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Email</label>
+                      <input type="mail" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Password</label>
+                      <input type="password" class="form-control" id="recipient-name">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+     -->
+    </nav>
+    <section id="header">
+        <div class="container">
+            <div class="row">
+            	<div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                	<h1>Konexio</h1>
+                	<p>Aider les réfugiés à s'intégrer grâce au numérique</p>
+            	</div>
+                <aside class=" col-12 col-sm-12 col-md-6 col-lg-4">
+                    <form action="index.html">
+                        <h4>Programme Digistart</h4>
+                        <label>S'inscrire à la prochine session</label>
+
+                        <select name="month" class="custom-select">
+                        	<option value="#">Choisir...</option>
+                            <option value="Jan">Janvier</option>
+                            <option value="Mar">Mars</option>
+                            <option value="Jui">Juin</option>
+                            <option value="Sep">Septembre</option>
+                        </select>
+                         <!-- <button type="submit" class="btn btn-info">M'inscrire</button> -->
+                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">S'inscrire</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Inscription</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <form>
+                                  <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">First name:</label>
+                                    <input type="text" class="form-control" id="nom">
+                                  </div>
+                                    <div class="form-group">
+                                        
+                                    <label for="recipient-name" class="col-form-label">Fast name:</label>
+                                    <input type="text" class="form-control" id="prenom">
+                                  </div>
+                                  <div class="form-group">
+                                        
+                                    <label for="recipient-name" class="col-form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email">
+                                  </div>
+
+                                  <div class="form-group">
+                                        
+                                    <label for="recipient-name" class="col-form-label">Portable:</label>
+                                    <input type="numbre" class="form-control" id="numbre">
+                                  </div>
+
+                                  <!-- <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Motivation:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                  </div> -->
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                                <button type="button" class="btn btn-primary">S'inscrire</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+					
+					</form>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <!-- /section#header -->
+    <section class="bg-info" id="students">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="./img/student.jpg" alt="Etudiant à Konexio" class="img-fluid"/>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p>Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos
+                    formations aboutit à une certification</p>
+                <button class="btn btn-outline-light">
+                    Je veux étudier
+
+                </button><!-- /section#students -->
+            </div>
+    </section>
+    <section id="volunteer">
+
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p>Vous avez envie d'aider des personnes qui cherchent à apprendre et à s'intégrer ? Si vous avez des
+                    connaissances en informatique de bureau, sur Excel ou en programmation, envoyez nous un message</p>
+                <button class="btn btn-outline-dark"> Je veux aider</button>
+            </div>
+             <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="./img/volunteer.jpg " alt="Professeur à Konexion" class="img-fluid" />
+            </div>
+            </div>
+        </div>
+    </section>
+    <section  class="bg-info" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4 col-lg-4">
+                    <div class="swiper-container">
+                            <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/gallery/gallery1.jpg" alt="les eleves" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/gallery/gallery2.jpg" alt="les eleves" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/gallery/gallery6.jpg" alt="un développeur" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+            	<div class="col-12">
+            		<h2>L'équipe</h2>
+            	</div>
+              <div class="team-member col-sm-12 col-md-4 col-lg-4">
+                    <img src="./img/people/jean.jpg" alt="jean" />
+                    <h4>Jean Guo</h4>
+                    <h6>Fondatrice et gérante</h6>
+                </div>
+                <!--commentaire-->
+        <div class="team-member col-sm-12 col-md-4 col-lg-4">
+            <img src="./img/people/binta.jpg" alt="binta"/>
+            <h4>Binta Jammeh</h4>
+            <h6>Directrice des programmes</h6>
+        </div>
+        <!--commentaire-->
+        <div class="team-member col-sm-12 col-md-4 col-lg-4">
+            <img src="./img/people/denis.jpg " alt="denis"/>
+            <h4>Denis Robert</h4>
+            <h6>Formateur</h6>
+        </div>
+        <!--commentaire-->
+
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-info" >
+        <div class="container">
+        <div class="row">
+            <div class="footer-list col-6">
+
+            <h3>Konexio</h3>
+            <ul>
+                
+                <li><a href="http://konexio.eu" >Mentions légales</a></li>
+                <li><a href="http://konexio.eu">Vie privée</a></li>
+                <li><a href="http://konexio.eu">Conditions d'utilisations</a></li>
+
+            </ul>
+            </div>
+            <div class="footer-list col-6">
+                <h3>Réseaux sociaux</h3>
+            <ul>
+                <li><a href="http://konexio.eu"><i class="fab fa-instagram"></i>  Instagram</a></li>
+                <li><a href="http://konexio.eu"><i class="fab fa-twitter"></i>  Twitter</a></li>
+                <li><a href="http://konexio.eu"><i class="fab fa-facebook"></i>  Facebook</a></li>
+            </ul>
+            
+                </div>
+            
+            </div>
+        </div>
+    </footer>
+    <hr>
+   <!--  <h3>Nous Contacter</h3>
+    <form>
+       Nom:<br>
+       <input type="text" name="nom"><br>
+       Prenom: <br>
+       <input type="text"  name="Prenom"><br>
+       E-mail:<br>
+       <input type="email" name="email"><br>
+       <input type="button" onclick="alert('On reviens ver vous')" value="Envoyer">
+
+    </form> -->
+   
+    <script src="./js/smooth-scroll.min.js "></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</BODY>
+
+</HTML>

@@ -1,0 +1,92 @@
+
+/**BASE STYLE**/
+section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+	color: white;
+}
+
+.bg-info, .btn-info {
+  background-color: #0475ba !important;
+}
+
+ul{
+	list-style: none;
+	margin: 0px 0px;
+}
+h3{
+	margin: 40px 40px;
+}
+
+
+
+
+
+/**HEADER**/
+#header {
+	background-image: url(../img/header.jpg);
+	background-color: black;
+  	min-height: 700px;
+	color: white;
+	padding-top: 160px;
+}
+
+#header p{
+	font-size: 2em;
+}
+
+/**formulaire**/
+aside form{
+	background: white;
+	color: black;
+	padding: 40px 30px;
+	border-radius: 10px;
+
+}
+
+aside form button{
+	margin-top: 10px;
+}
+
+/*section*/
+section #students p{
+	color: white;
+}
+
+section #volunteer p{
+	margin-top: 100px;
+}
+
+section #volunteer img{
+	border-radius: 5px;
+}
+
+/*team*/
+section .team-member{
+	text-align: center;
+}
+ section .team-member img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin-bottom: 15px;
+	box-shadow: 10px 10px 5px 5px slateblue;
+}
+
+ section .team-member h6{
+	color: #0475ba;
+}
+
+/*PIED DE PAGE*/
+
+footer{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
